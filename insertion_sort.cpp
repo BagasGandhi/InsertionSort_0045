@@ -16,6 +16,7 @@ void input(){ //procedure input
             cout << "\nArray Tidak Boleh lebih dari 20\n";
         }
     }
+    cout << endl;
     cout << "\n===================" << endl;
     cout << "Masukkan Element Array" << endl;
     cout << "===================" << endl;
@@ -23,5 +24,15 @@ void input(){ //procedure input
     for (int i = 0; i < n; i++ ){
         cout << "Data ke-" << (i+1) << ": ";
         cin >> arr[i];
+    }
+}
+
+void insertionsort(){ //procedure insertionsort
+    int temp;
+    int j;
+
+    for (int i = 0; i < n; i++){
+        temp = arr[i];
+        j = i-1;
     }
 }
