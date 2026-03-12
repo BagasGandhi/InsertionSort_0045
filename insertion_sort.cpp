@@ -9,9 +9,11 @@ void input(){ //procedure input
         cout << "Masukkan Jumlah Data Pada Array : ";
         cin >> n; 
 
-        if (n <= 20)
+        if (n <= 20){
             break;
-        else
+        }
+        else{
             cout << "\nArray Tidak Boleh lebih dari 20\n";
+        }
     }
 }
