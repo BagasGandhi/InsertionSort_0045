@@ -16,4 +16,9 @@ void input(){ //procedure input
             cout << "\nArray Tidak Boleh lebih dari 20\n";
         }
     }
+    cout << "\n===================" << endl;
+    cout << "Masukkan Element Array" << endl;
+    cout << "===================" << endl;
+
+    
 }
